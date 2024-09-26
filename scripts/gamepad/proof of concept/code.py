@@ -7,8 +7,8 @@ from hid_gamepad import Gamepad
 
 gp = Gamepad(usb_hid.devices)
 
-button_pins = (board.GP15,)
-gamepad_buttons = (1,)
+button_pins = (board.GP15, board.GP16,)
+gamepad_buttons = (1, 2,) # Up to 16 buttons allowed I think
 buttons = [digitalio.DigitalInOut(pin) for pin in button_pins]
 
 for button in buttons:
@@ -18,12 +18,12 @@ for button in buttons:
 ax = analogio.AnalogIn(board.A0)
 ay = analogio.AnalogIn(board.A1)
 
-X_CENTER = 48823
-Y_CENTER = 50142
-X_MIN = 65535
-Y_MIN = 65535
-X_MAX = 480
-Y_MAX = 512
+# X_CENTER = 48823
+# Y_CENTER = 50142
+# X_MIN = 65535
+# Y_MIN = 65535
+# X_MAX = 480
+# Y_MAX = 512
 
 def debounce():
     time.sleep(0.01)
