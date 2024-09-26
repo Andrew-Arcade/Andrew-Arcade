@@ -1,3 +1,4 @@
+import board
 import usb_hid
 import storage
 import digitalio
@@ -50,4 +51,11 @@ usb_hid.enable(
      gamepad)
 )
 
-storage.disable_usb_drive()
+
+button = digitalio.DigitalInOut(board.GP15)
+
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+
+if not button.value
+    storage.disable_usb_drive()
