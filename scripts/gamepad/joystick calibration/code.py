@@ -7,13 +7,6 @@ import time
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 
-# Blink the LED 3 times to indicate the script is running
-for _ in range(3):
-    led.value = True
-    time.sleep(0.5)
-    led.value = False
-    time.sleep(0.5)
-
 # Define analog inputs for joystick
 ax = analogio.AnalogIn(board.A0)  # X-axis
 ay = analogio.AnalogIn(board.A1)  # Y-axis

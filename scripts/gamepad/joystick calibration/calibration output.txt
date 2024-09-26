@@ -11,5 +11,3 @@ Max X: 480, Max Y: 512
 
 --- Calibration Complete ---
 Center: (48823, 50142), Min: (65535, 65535), Max: (480, 512)
-
-Code done running.
