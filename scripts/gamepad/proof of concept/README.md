@@ -9,8 +9,6 @@
 
 [circuitpython](https://circuitpython.org/) (intall onto the pico)
 
-[kmk_firmware](https://github.com/KMKfw/kmk_firmware) (download the precompied one and unzip the kmk folder into the pico)
-
 # Libraries (from https://circuitpython.org/libraries):
 
 #### adafruit_bus_device
