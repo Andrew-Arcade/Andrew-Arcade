@@ -1,4 +1,6 @@
 import usb_hid
+import storage
+import digitalio
 
 # This is only one example of a gamepad descriptor, and may not suit your needs.
 GAMEPAD_REPORT_DESCRIPTOR = bytes((
@@ -47,3 +49,5 @@ usb_hid.enable(
      usb_hid.Device.CONSUMER_CONTROL,
      gamepad)
 )
+
+storage.disable_usb_drive()
