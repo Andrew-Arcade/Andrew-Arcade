@@ -50,12 +50,3 @@ usb_hid.enable(
      usb_hid.Device.CONSUMER_CONTROL,
      gamepad)
 )
-
-
-button = digitalio.DigitalInOut(board.GP15)
-
-button.direction = digitalio.Direction.INPUT
-button.pull = digitalio.Pull.UP
-
-if button.value
-    storage.disable_usb_drive()

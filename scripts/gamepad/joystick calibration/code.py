@@ -11,61 +11,41 @@ led.direction = digitalio.Direction.OUTPUT
 ax = analogio.AnalogIn(board.A0)  # X-axis
 ay = analogio.AnalogIn(board.A1)  # Y-axis
 
-# Calibration variables
-X_CENTER = 0
-Y_CENTER = 0
-X_MIN = 0
-Y_MIN = 0
-X_MAX = 0
-Y_MAX = 0
+def scale(value):
+    return int((value - 32768) / 256)  # Converts 0-65535 range to -127 to 127
 
-def map_float(x, in_min, in_max, out_min, out_max):
-    """Map a value from one range to another."""
-    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+def calibrate(value, center):
+    if value > center:
+        height = 127
+    elif value < center:
+        height = -127
+    else:
+        return center
 
-def calibrate():
-    global X_CENTER, Y_CENTER, X_MIN, Y_MIN, X_MAX, Y_MAX
+    percent = abs(center - value) / abs(height - center)
+    new_value = height * percent
+    return new_value
+         
+while True:
+    # Read analog values
+    raw_x = ax.value
+    raw_y = ay.value
+    
+    # Scale the values
+    scaled_x = scale(raw_x)
+    scaled_y = scale(raw_y)
 
-    print("\n--- Calibrating Joystick ---\n")
+    # final_x = calibrate(scaled_x, 61)
+    # final_y = calibrate(scaled_y, 67)
 
-    # Step 1: Center Calibration
-    print("Step 1: Place the joystick in the center position and wait...")
-    time.sleep(2)  # Delay for user to place the joystick
-    cal_X = 0
-    cal_Y = 0
-    for _ in range(100):
-        cal_X += ax.value
-        cal_Y += ay.value
-        time.sleep(0.01)  # Small delay to stabilize readings
-    X_CENTER = cal_X // 100
-    Y_CENTER = cal_Y // 100
-    print(f"Center X: {X_CENTER}, Center Y: {Y_CENTER}")
-
-    # Step 2: Minimum Calibration
-    print("\nStep 2: Move the joystick to the bottom-left corner and wait...")
-    time.sleep(2)
-    X_MIN = ax.value
-    Y_MIN = ay.value
-    for _ in range(100):
-        X_MIN = min(X_MIN, ax.value)
-        Y_MIN = min(Y_MIN, ay.value)
-        time.sleep(0.01)
-    print(f"Min X: {X_MIN}, Min Y: {Y_MIN}")
-
-    # Step 3: Maximum Calibration
-    print("\nStep 3: Move the joystick to the top-right corner and wait...")
-    time.sleep(2)
-    X_MAX = ax.value
-    Y_MAX = ay.value
-    for _ in range(100):
-        X_MAX = max(X_MAX, ax.value)
-        Y_MAX = max(Y_MAX, ay.value)
-        time.sleep(0.01)
-    print(f"Max X: {X_MAX}, Max Y: {Y_MAX}")
-
-    # Output the calibration results
-    print("\n--- Calibration Complete ---")
-    print(f"Center: ({X_CENTER}, {Y_CENTER}), Min: ({X_MIN}, {Y_MIN}), Max: ({X_MAX}, {Y_MAX})")
-
-# Run the calibration once and end the program
-calibrate()
+    final_x = scaled_x - 53
+    final_y = scaled_y - 56
+    
+    # Print the scaled values with 3 digits before the decimal and 5 decimal places, accounting for the negative sign
+    print(f"X0: {scaled_x:+10.5f} Y0: {scaled_y:+10.5f} X1: {final_x:+10.5f} Y1: {final_y:+10.5f}")
+    
+    # Toggle the onboard LED to show the script is running
+    led.value = not led.value
+    
+    # Small delay to avoid flooding the output
+    time.sleep(0.05)
