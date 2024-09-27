@@ -1,3 +1,4 @@
+import board
 import usb_hid
 import storage
 import digitalio
@@ -49,5 +50,3 @@ usb_hid.enable(
      usb_hid.Device.CONSUMER_CONTROL,
      gamepad)
 )
-
-storage.disable_usb_drive()
