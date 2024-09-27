@@ -11,41 +11,22 @@ led.direction = digitalio.Direction.OUTPUT
 ax = analogio.AnalogIn(board.A0)  # X-axis
 ay = analogio.AnalogIn(board.A1)  # Y-axis
 
-def scale(value):
-    return int((value - 32768) / 256)  # Converts 0-65535 range to -127 to 127
+def calibrate(val):
+    scaled_val = (val - 50000) / 127
+    
+    adjuested_val = scaled_val
+    if scaled_val < 0:
+        adjuested_val = int(scaled_val * 0.31282051282)
 
-def calibrate(value, center):
-    if value > center:
-        height = 127
-    elif value < center:
-        height = -127
-    else:
-        return center
+    final_val = adjuested_val * 1.04098360656
 
-    percent = abs(center - value) / abs(height - center)
-    new_value = height * percent
-    return new_value
-         
+    return int(final_val)
+
 while True:
-    # Read analog values
-    raw_x = ax.value
-    raw_y = ay.value
-    
-    # Scale the values
-    scaled_x = scale(raw_x)
-    scaled_y = scale(raw_y)
+    scaled_x = calibrate(ax.value)
+    scaled_y = calibrate(ay.value)
 
-    # final_x = calibrate(scaled_x, 61)
-    # final_y = calibrate(scaled_y, 67)
-
-    final_x = scaled_x - 53
-    final_y = scaled_y - 56
-    
-    # Print the scaled values with 3 digits before the decimal and 5 decimal places, accounting for the negative sign
-    print(f"X0: {scaled_x:+10.5f} Y0: {scaled_y:+10.5f} X1: {final_x:+10.5f} Y1: {final_y:+10.5f}")
-    
-    # Toggle the onboard LED to show the script is running
-    led.value = not led.value
+    print(f"X0: {raw_x:+10.5f} Y0: {raw_y:+10.5f} X1: {scaled_x:+10.5f} Y1: {scaled_y:+10.5f}")
     
     # Small delay to avoid flooding the output
     time.sleep(0.05)
