@@ -12,13 +12,9 @@ ax = analogio.AnalogIn(board.A0)  # X-axis
 ay = analogio.AnalogIn(board.A1)  # Y-axis
 
 def calibrate(val):
-    scaled_val = (val - 50000) / 127
-    
-    adjuested_val = scaled_val
-    if scaled_val < 0:
-        adjuested_val = int(scaled_val * 0.31282051282)
+    scaled_val = (val - 33000) / 127
 
-    final_val = adjuested_val * 1.04098360656
+    final_val = scaled_val * 0.49416342412
 
     return int(final_val)
 
@@ -26,7 +22,7 @@ while True:
     scaled_x = calibrate(ax.value)
     scaled_y = calibrate(ay.value)
 
-    print(f"X0: {raw_x:+10.5f} Y0: {raw_y:+10.5f} X1: {scaled_x:+10.5f} Y1: {scaled_y:+10.5f}")
+    print(f"X0: {ax.value:+10.5f} Y0: {ay.value:+10.5f} X1: {scaled_x:+10.5f} Y1: {scaled_y:+10.5f}")
     
     # Small delay to avoid flooding the output
     time.sleep(0.05)
