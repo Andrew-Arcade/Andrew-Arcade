@@ -1,0 +1,1 @@
+sudo "apps/Andrew Arcade/andrewarcade.x86_64"
