@@ -6,3 +6,8 @@ chmod +x startup.sh
 
 $ crontab -e
 @reboot  startup.sh
+
+
+# PLAN
+
+need to make a unity package with functions to help developers make their games work
