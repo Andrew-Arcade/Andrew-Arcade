@@ -2,6 +2,7 @@ import board
 import usb_hid
 import storage
 import digitalio
+import supervisor
 
 # This is only one example of a gamepad descriptor, and may not suit your needs.
 GAMEPAD_REPORT_DESCRIPTOR = bytes((
@@ -34,15 +35,16 @@ GAMEPAD_REPORT_DESCRIPTOR = bytes((
     0xC0,        # End Collection
 ))
 
-
 gamepad = usb_hid.Device(
     report_descriptor=GAMEPAD_REPORT_DESCRIPTOR,
     usage_page=0x01,           # Generic Desktop Control
     usage=0x05,                # Gamepad
     report_ids=(4,),           # Descriptor uses report ID 4.
     in_report_lengths=(6,),    # This gamepad sends 6 bytes in its report.
-    out_report_lengths=(0,),   # It does not receive any reports.
+    out_report_lengths=(0,),   # It does not receive any reports.   
 )
+
+supervisor.set_usb_identification("Microsoft Corp.", "Xbox 360 Controller")
 
 usb_hid.enable(
     (usb_hid.Device.KEYBOARD,
