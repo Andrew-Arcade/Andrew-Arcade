@@ -1,27 +1,12 @@
 Raspberry Pi 5 - https://www.raspberrypi.com/products/raspberry-pi-5/
 	- Price: $80.
 
-Arduino Nano - https://store.arduino.cc/products/arduino-nano
-
 Adafruit HDMI Display - https://www.adafruit.com/product/2232
 	- Price: $60.
 	- Dimensions: 800x480
 	- Size: 5".
 
-Incremental Rotary Encoder - https://www.amazon.com/Signswise-Incremental-Optical-Encoder-Quadrature/dp/B085ZLCYS1/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Oq9QLB-z5V367NjvKuOFmpPnngDc5XueBMlDOpxBpehvrimE2x8og-UlH4jHnHLNNaK5JedqVFM06t7iWIk6FIbLjqqB6yF0BtrL8qn1vKTqcv_VD2DeF0SdhqobSCnCVkCQWWLZ_oUOALjD6iTgob1V1y4t4fR7PREw3fbsf_I5eHQwKqxDHePzN1HnxGbIO8hCsb7LzGzOsx3xKHDwQzb9hiAFevqWUOqdy1Ootzg.hbqhC2g5w4MF8FtGXU57zX0m9W4N3F0QZ8j9HOf6u3A&dib_tag=se&keywords=Incremental%2BRotary%2BEncoder&qid=1726422160&sr=8-4&th=1
-	- Encoder size: 38 x 35.5mm/1.49" x 1.39"
-	- Shaft: 6 x 13mm/0.23" x 0.51"
-	- Axis stopper platform: High 5mm, 20mm
-	- Power source: DC 5-24V
-	- Maximum mechanical speed: 5000 R / min
-	- Response frequency: 0-20KHz
-	- Fixed empty as: three 3mm screw holes distribution of 120 degrees / or six 3mm screw holes into 60 degree distribution, to the center distance of 14mm.
-	- Wires length: 150cm
-
-Switch - https://www.amazon.com/OURUI-Rocker-Position-Household-Appliances/dp/B0CP248683/ref=sr_1_4?crid=1R5W8AGMP3WS&dib=eyJ2IjoiMSJ9.WmaFZ7stFwpC2HF0pGeUARTaFYkFfCACFPArbr33eD-0lxJy9U5KcTADs3eQA8gaQBWX_y4lUgG9q4r_nKRDvoqUnjiySZhpG5miX4GwaPf1VoT0HIbAMPvd3P-S7C5v9C_vK1d8ds8gqSHdduYYknyYDm3hIJflvDxYJKfy3y408kCXjOO8eVETCckHymtxK_leLlwqfqX7v8MQQdrQOMz2gi817p9UKo50CUDwml0.JqIEeUND9yUWNbMpBoBwExaK-s3VO7q1MgFB5-KodHM&dib_tag=se&keywords=electronic%2Bswitch&qid=1726425149&sprefix=electraonic%2Bswitch%2Caps%2C143&sr=8-4&th=1
-	- Mounting Hole Size: 19 x 13 mm (0.75 inch x 0.5 inch). Rocker switch dimension (L*W*T): 21 x 15 x 25 mm (0.8 x 0.6 x 1.1 inch)
-
-Buttons:
+Power Button:
 	- 17.3 mm max diameter
 	- 13.0 mm fit diameter
 	- 21.4 mm height
