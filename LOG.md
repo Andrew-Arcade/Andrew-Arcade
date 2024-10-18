@@ -7,7 +7,7 @@
 ![image](photos/front%20panel%20v1%20printed/Photo%20Oct%2018%202024,%202%2028%2055%20PM.jpg)
 ![image](photos/front%20panel%20v1%20printed/Photo%20Oct%2018%202024,%202%2028%2043%20PM.jpg)
 
-### Working on case modle
+### Working on case model
 
 ![image](photos/working%20on%20case/Screenshot%202024-10-17%20130836.png)
 
