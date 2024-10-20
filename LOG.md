@@ -2,10 +2,16 @@
 
 > Newset at top.
 
+### Working on front panel v2
+
+![image](photos/working%20on%20front%20panel%20v2/Screenshot%202024-10-19%20170313.png)
+![image](photos/working%20on%20front%20panel%20v2/Screenshot%202024-10-19%20170348.png)
+
 ### Front panel v1 printed
 
 ![image](photos/front%20panel%20v1%20printed/Photo%20Oct%2018%202024,%202%2028%2055%20PM.jpg)
 ![image](photos/front%20panel%20v1%20printed/Photo%20Oct%2018%202024,%202%2028%2043%20PM.jpg)
+![image](photos/front%20panel%20v1%20printed/Photo%20Oct%2018%202024,%207%2025%2051%20PM.jpg)
 
 ### Working on case model
 
