@@ -14,7 +14,7 @@ Designed on top of the Raspberry Pi 5 running pios.
 We use [box64](https://github.com/ptitSeb/box64) to run Unity games on the ARM architecture. 
 
 ## Apps
-
+[Andrew-Arcade-Apps](https://github.com/AndrewCromar/Andrew-Arcade-Apps) (referred to as "apps repository")
 > Most up to date information will be in the apps repository eventually.
 
 ### How to contribute your app
