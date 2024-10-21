@@ -2,6 +2,10 @@
 
 > Newset at top.
 
+### Working on the pi5 mount
+
+![image](photos/working%20on%20the%20pi5%20mount/Screenshot%202024-10-20%20201950.png)
+
 ### Working on front panel v2
 
 ![image](photos/working%20on%20front%20panel%20v2/Screenshot%202024-10-19%20170313.png)
