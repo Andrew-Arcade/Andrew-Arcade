@@ -1,6 +1,6 @@
 # Andrew Arcade
 
-### Check out the [log](LOG.md)!
+Check out my progress in the [log](LOG.md)!
 
 ## About the Project
 
