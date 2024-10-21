@@ -12,6 +12,8 @@ We use [box64](https://github.com/ptitSeb/box64) to run Unity games on the ARM a
 
 ## Apps
 
+> Most up to date information will be in the apps repository eventually.
+
 ### How to contribute your app
 
 To create your own app, you'll need to submit all the source code (the full Unity project) to the apps repository. You will also need to modify the driver app to include your app (details will be provided later). Once your app is ready for release, submit a pull request (PR) to the apps repository. After your PR is approved, you can build the app and submit a second PR to this main Andrew Arcade repository.
