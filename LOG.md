@@ -2,7 +2,7 @@
 
 <details>
 <summary>October 20, 2024: Working on the pi5 mount</summary><br>
-    <img style="width: 400px;" src="photos/working%20on%20the%20pi5%20mount/Screenshot%202024-10-20%20201950.png)">
+    <img style="width: 400px;" src="photos/working%20on%20the%20pi5%20mount/Screenshot%202024-10-20%20201950.png">
 </details>
 
 <details>
