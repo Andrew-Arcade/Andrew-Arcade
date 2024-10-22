@@ -1,6 +1,11 @@
 # LOG
 
 <details>
+<summary>October 22, 2024: Print failed but I can test the button fit</summary><br>
+    <img style="width: 400px;" src="photos//print failed but i can test the button fit/Photo Oct 22 2024, 4 43 24 PM.jpg">
+</details>
+
+<details>
 <summary>October 20, 2024: Working on the pi5 mount</summary><br>
     <img style="width: 400px;" src="photos/working%20on%20the%20pi5%20mount/Screenshot%202024-10-20%20201950.png">
 </details>
