@@ -2,7 +2,7 @@
 
 <details>
 <summary>October 22, 2024: Print failed but I can test the button fit.</summary><br>
-    <img style="width: 400px;" src="photos//print failed but i can test the button fit/">
+    <img style="width: 400px;" src="photos/print failed but i can test the button fit/Photo Oct 22 2024, 4 43 24 PM.jpg">
 </details>
 
 <details>
