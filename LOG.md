@@ -1,6 +1,17 @@
 # LOG
 
 <details>
+<summary>October 22, 2024: Started wiring up the buttons to ground.</summary><br>
+    <img style="width: 400px;" src="photos/started wiring up the buttons to ground/Photo Oct 24 2024, 10 38 33 PM.jpg">
+</details>
+
+<details>
+<summary>October 22, 2024: Front panel v2 printed.</summary><br>
+    <img style="width: 400px;" src="photos/front panel v2 printed/Photo Oct 23 2024, 7 24 56 PM.jpg">
+    <img style="width: 400px;" src="photos/front panel v2 printed/Photo Oct 23 2024, 7 25 18 PM.jpg">
+</details>
+
+<details>
 <summary>October 22, 2024: Print failed but I can test the button fit.</summary><br>
     <img style="width: 400px;" src="photos/print failed but i can test the button fit/Photo Oct 22 2024, 4 43 24 PM.jpg">
 </details>
