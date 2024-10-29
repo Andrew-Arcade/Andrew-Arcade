@@ -1,6 +1,11 @@
 # LOG
 
 <details>
+<summary>October 28, 2024: Working on front panel v3.</summary><br>
+    <img style="width: 400px;" src="photos/working on front panel v3/Screenshot 2024-10-28 202453.png">
+</details>
+
+<details>
 <summary>October 22, 2024: Started wiring up the buttons to ground.</summary><br>
     <img style="width: 400px;" src="photos/started wiring up the buttons to ground/Photo Oct 24 2024, 10 38 33 PM.jpg">
 </details>
