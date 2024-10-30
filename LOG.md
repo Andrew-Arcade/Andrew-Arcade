@@ -1,6 +1,12 @@
 # LOG
 
 <details>
+<summary>October 29, 2024: New buttons arrived.</summary><br>
+    <img style="width: 400px;" src="photos/new buttons arrived/Photo Oct 29 2024, 5 44 11 PM.jpg">
+    <img style="width: 400px;" src="photos/new buttons arrived/Photo Oct 29 2024, 5 44 30 PM.jpg">
+</details>
+
+<details>
 <summary>October 28, 2024: Working on front panel v3.</summary><br>
     <img style="width: 400px;" src="photos/working on front panel v3/Screenshot 2024-10-28 202453.png">
 </details>
