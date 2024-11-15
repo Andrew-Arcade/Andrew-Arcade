@@ -1,6 +1,12 @@
 # LOG
 
 <details>
+<summary>November 15, 2024: Final (hopefully) front plate printed + started to assemble.</summary><br>
+    <img style="width: 400px;" src="photos/final (hopefully) front plate printed + started to assemble/IMG_0732.JPG">
+    <img style="width: 400px;" src="photos/final (hopefully) front plate printed + started to assemble/IMG_0731.JPG">
+</details>
+
+<details>
 <summary>October 29, 2024: New buttons arrived.</summary><br>
     <img style="width: 400px;" src="photos/new buttons arrived/Photo Oct 29 2024, 5 44 11 PM.jpg">
     <img style="width: 400px;" src="photos/new buttons arrived/Photo Oct 29 2024, 5 44 30 PM.jpg">
