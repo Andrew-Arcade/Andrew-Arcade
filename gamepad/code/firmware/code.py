@@ -8,7 +8,7 @@ from hid_gamepad import Gamepad
 gp = Gamepad(usb_hid.devices)
 
 #              [ d-pad                                     ]     [ +/-                ]     [joystick]
-button_pins = (board.GP9, board.GP10, board.GP11, board.GP12,    board.GP13, board.GP14,    board.GP15,)
+button_pins = (board.GP9, board.GP10, board.GP11, board.GP12,    board.GP14, board.GP13,    board.GP15,)
 gamepad_buttons = (1, 2, 3, 4, 7, 8, 9,) # Up to 16 buttons allowed I think
 buttons = [digitalio.DigitalInOut(pin) for pin in button_pins]
 
@@ -30,8 +30,8 @@ def calibrate(val):
     return int(final_val)
 
 while True:
-    x_val = calibrate(ax.value)
-    y_val = calibrate(ay.value)
+    x_val = - calibrate(ax.value)
+    y_val = - calibrate(ay.value)
 
     gp.move_joysticks(x=x_val, y=y_val)
 
