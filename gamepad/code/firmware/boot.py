@@ -46,7 +46,7 @@ gamepad = usb_hid.Device(
 
 supervisor.set_usb_identification("Microsoft Corp.", "Xbox 360 Controller")
 
-usb_hid.set_interface_name("AA Controller")
+# usb_hid.set_interface_name("AA Controller")
 
 usb_hid.enable(
     (usb_hid.Device.KEYBOARD,
