@@ -1,6 +1,11 @@
 # LOG
 
 <details>
+<summary>December 1, 2024: GOT THE CONTROLLER WORKING FINALLY</summary><br>
+    Sorry no pictures for this one but I finally got the controller working. :)
+</details>
+
+<details>
 <summary>November 15, 2024: Final (hopefully) front plate printed + started to assemble.</summary><br>
     <img style="width: 400px;" src="photos/final (hopefully) front plate printed + started to assemble/IMG_0732.JPG">
     <img style="width: 400px;" src="photos/final (hopefully) front plate printed + started to assemble/IMG_0731.JPG">
