@@ -4,7 +4,11 @@ This is what is actually going to be running on the Raspberry Pi 5. This will be
 
 chmod +x startup.sh
 
+
+### Make it run at startup.
+
 $ crontab -e
+
 @reboot  startup.sh
 
 
