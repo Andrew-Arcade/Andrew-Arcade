@@ -1,2 +1,2 @@
-chmod +x apps/aaaTemplate/aaaTemplate.x86_64
-box64 apps/aaaTemplate/aaaTemplate.x86_64
+chmod +x apps/tester/tester.x86_64
+box64 apps/tester/tester.x86_64
