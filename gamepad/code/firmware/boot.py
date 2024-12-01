@@ -44,9 +44,8 @@ gamepad = usb_hid.Device(
     out_report_lengths=(0,),   # It does not receive any reports.   
 )
 
-supervisor.set_usb_identification("ONYX Development", "AA GAMEPAD")
-
-usb_hid.set_interface_name("ONYX Development AA GAMEPAD")
+supervisor.set_usb_identification("Microsoft Corp.", "Xbox 360 Controller")
+usb_hid.set_interface_name("Microsoft Corp. Xbox 360 Controller")
 
 usb_hid.enable(
     (usb_hid.Device.KEYBOARD,
