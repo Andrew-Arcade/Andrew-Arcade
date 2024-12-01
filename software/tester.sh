@@ -1,2 +1,2 @@
-chmod +x apps/tester/tester.x86_64
-box64 apps/tester/tester.x86_64
+chmod +x apps/template/template.x86_64
+box64 apps/template/template.x86_64
