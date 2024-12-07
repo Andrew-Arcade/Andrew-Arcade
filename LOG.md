@@ -1,6 +1,13 @@
 # LOG
 
 <details>
+<summary>December 7, 2024: Well the final version of the case is coming along.</summary><br>
+    <img style="width: 400px;" src="photos/Well the final version of the case is coming along/Screenshot 2024-12-07 135748.png">
+    <img style="width: 400px;" src="photos/Well the final version of the case is coming along/Screenshot 2024-12-07 135720.png">
+    <img style="width: 400px;" src="photos/Well the final version of the case is coming along/Screenshot 2024-12-07 135820.png">
+</details>
+
+<details>
 <summary>December 1, 2024: GOT THE CONTROLLER WORKING FINALLY</summary><br>
     Sorry no pictures for this one but I finally got the controller working. :)
 </details>
