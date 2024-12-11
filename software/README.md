@@ -7,9 +7,12 @@ chmod +x startup.sh
 
 ### Make it run at startup.
 
-$ crontab -e
+Run:
+- $ crontab -e
 
-@reboot  startup.sh
+Type this into the crontab to make the script run at startup.
+- @reboot  home/${user}/Andrew-Arcade/software/startup.sh
+> Adjust the path if you have something different.
 
 
 # PLAN
