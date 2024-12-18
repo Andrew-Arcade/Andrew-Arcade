@@ -13,6 +13,13 @@ Designed on top of the Raspberry Pi 5 running pios.
 
 We use [box64](https://github.com/ptitSeb/box64) to run Unity games on the ARM architecture. 
 
+## Driver App
+
+The driver app acts as the game hub, allowing you to choose which game to play. It should be configured to launch automatically at startup to provide a seamless experience.
+
+For detailed steps on how to set up the driver app to auto-start, see [this guide](software/README.md).
+
+
 ## Apps
 [Andrew-Arcade-Apps](https://github.com/AndrewCromar/Andrew-Arcade-Apps) (referred to as "apps repository")
 > Most up to date information will be in the apps repository eventually.

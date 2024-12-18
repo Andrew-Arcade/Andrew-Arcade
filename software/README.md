@@ -1,20 +1,53 @@
-This is what is actually going to be running on the Raspberry Pi 5. This will be running the games and stuff.
+# Auto Starting Driver App
 
-# Startup.sh
+This guide explains how to set up and run the script.
 
-chmod +x startup.sh
+---
 
+## Startup Script: `startup.sh`
 
-### Make it run at startup.
+This script will handle launching the games and related software.
 
-Run:
-- $ crontab -e
+---
 
-Type this into the crontab to make the script run at startup.
-- @reboot  home/${user}/Andrew-Arcade/software/startup.sh
-> Adjust the path if you have something different.
+### How to Make the Script Auto Start
 
+1. **Open the file for editing:**
 
-# PLAN
+   ```bash
+   nano ~/.profile
+   ```
 
-need to make a unity package with functions to help developers make their games work
+2. **Add the path to the script at the end of the file:**
+
+   ```bash
+   /home/{username}/Andrew-Arcade/software/startup.sh &
+   ```
+   > Replace `{username}` with your actual username or adjust the path as needed.
+
+   - The `&` ensures the script runs in the background, so it doesn’t block further startup processes.
+
+3. **Save and exit:**
+   - Use `Ctrl+O` to write changes.
+   - Press `Enter` to confirm the file name.
+   - Use `Ctrl+X` to exit the editor.
+
+---
+
+### Applying Changes
+
+The `~/.profile` file is loaded only for login shells. To apply the changes immediately without logging out and back in, run:
+
+```bash
+source ~/.profile
+```
+
+---
+
+### Testing the Setup
+
+Reboot the system to ensure the script runs as expected:
+
+```bash
+sudo reboot
+```
