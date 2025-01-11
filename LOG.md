@@ -1,6 +1,11 @@
 # LOG
 
 <details>
+<summary>Jan 11, 2024: New mounts for the pis.</summary><br>
+    <img style="width: 400px;" src="photos/new mounts for the pis/Screenshot 2025-01-11 153548.png">
+</details>
+
+<details>
 <summary>December 7, 2024: Well the final version of the case is coming along.</summary><br>
     <img style="width: 400px;" src="photos/Well the final version of the case is coming along/Screenshot 2024-12-07 135748.png">
     <img style="width: 400px;" src="photos/Well the final version of the case is coming along/Screenshot 2024-12-07 135720.png">
