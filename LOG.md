@@ -1,7 +1,14 @@
 # LOG
 
 <details>
-<summary>Jan 11, 2024: New mounts for the pis.</summary><br>
+<summary>Jan 22, 2025: new controller setup.</summary><br>
+    <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 09 PM.jpg">
+    <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 18 PM.jpg">
+    <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 26 PM.jpg">
+</details>
+
+<details>
+<summary>Jan 11, 2025: New mounts for the pis.</summary><br>
     <img style="width: 400px;" src="photos/new mounts for the pis/Screenshot 2025-01-11 153548.png">
 </details>
 
