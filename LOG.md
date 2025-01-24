@@ -1,7 +1,12 @@
 # LOG
 
 <details>
-<summary>Jan 22, 2025: new controller setup.</summary><br>
+<summary>Jan 23, 2025: Beginning assembly!</summary><br>
+    <img style="width: 400px;" src="photos/beginning assembly/Photo Jan 23 2025, 6 44 45 PM.jpg">
+</details>
+
+<details>
+<summary>Jan 22, 2025: New controller setup.</summary><br>
     <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 09 PM.jpg">
     <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 18 PM.jpg">
     <img style="width: 400px;" src="photos/new controller setup/Photo Jan 22 2025, 8 26 26 PM.jpg">
