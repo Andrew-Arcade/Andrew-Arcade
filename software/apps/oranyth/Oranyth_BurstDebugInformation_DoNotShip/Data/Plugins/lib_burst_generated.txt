@@ -9,7 +9,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
@@ -125,7 +124,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
@@ -241,7 +239,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
@@ -276,7 +273,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
@@ -313,7 +309,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
@@ -333,7 +328,6 @@ Library: D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\Burst
---debug=Full
 --key-folder=D:/Programming/Unity Files/Editors/6000.0.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport
 --decode-folder=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Library\Burst
 --output=D:\Programming\Unity Files\Projects\ONYX-Oranyth\Temp\BurstOutput\Data\Plugins\lib_burst_generated
