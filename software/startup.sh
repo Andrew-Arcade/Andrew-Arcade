@@ -1,21 +1,11 @@
 #!/bin/bash
 
-# Wait for the system to finish starting up.
-sleep 10
-
 # Wait for X server to be ready (screen is available)
 echo "Waiting for X server to be ready..."
 while ! xset q &>/dev/null; do
     sleep 1
 done
 echo "X server is ready."
-
-# Wait for Box64 to be ready
-echo "Waiting for Box64 to be ready..."
-while ! pgrep -x "box64" &>/dev/null; do
-    sleep 1
-done
-echo "Box64 is ready."
 
 # Setup apps as executables.
 echo "Setting apps as executables..."
