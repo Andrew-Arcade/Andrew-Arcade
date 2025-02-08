@@ -1,6 +1,6 @@
 # Auto Starting Driver App
 
-This guide explains how to set up and run the script.
+This guide explains how to set up and run the script automatically when logging into the Raspberry Pi OS desktop.
 
 ---
 
@@ -10,44 +10,53 @@ This script will handle launching the games and related software.
 
 ---
 
-### How to Make the Script Auto Start
+## How to Make the Script Auto Start (GUI Method)
 
-1. **Open the file for editing:**
-
-   ```bash
-   nano ~/.profile
-   ```
-
-2. **Add the path to the script at the end of the file:**
-
-   ```bash
-   /home/{username}/Andrew-Arcade/software/startup.sh &
-   ```
-   > Replace `{username}` with your actual username or adjust the path as needed.
-
-   - The `&` ensures the script runs in the background, so it doesn’t block further startup processes.
-
-3. **Save and exit:**
-   - Use `Ctrl+O` to write changes.
-   - Press `Enter` to confirm the file name.
-   - Use `Ctrl+X` to exit the editor.
-
----
-
-### Applying Changes
-
-The `~/.profile` file is loaded only for login shells. To apply the changes immediately without logging out and back in, run:
+### Step 1: Create the Autostart Directory  
+Ensure the autostart directory exists by running:
 
 ```bash
-source ~/.profile
+mkdir -p ~/.config/autostart
 ```
 
 ---
 
-### Testing the Setup
+### Step 2: Create the Startup Entry  
+Create a new `.desktop` file:
 
-Reboot the system to ensure the script runs as expected:
+```bash
+nano ~/.config/autostart/start-driver.desktop
+```
+
+Then, add the following content:
+
+```ini
+[Desktop Entry]
+Type=Application
+Name=Start Driver
+Exec=/home/{username}/Andrew-Arcade/software/startup.sh
+StartupNotify=false
+Terminal=false
+```
+
+> Replace `{username}` with your actual username.
+
+---
+
+### Step 3: Make the Script Executable  
+Ensure the script has the correct permissions:
+
+```bash
+chmod +x /home/{username}/Andrew-Arcade/software/startup.sh
+```
+
+---
+
+### Step 4: Restart to Apply Changes  
+Reboot your Raspberry Pi to test the setup:
 
 ```bash
 sudo reboot
 ```
+
+Your script should now start automatically when you log into the **Raspberry Pi OS desktop**. 🎉
