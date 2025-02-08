@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Wait for the system to finish starting up.
+sleep 10
+
 # Setup apps as executables.
 /usr/bin/chmod +x /home/andrew/Andrew-Arcade/software/apps/driver/driver.x86_64
 /usr/bin/chmod +x /home/andrew/Andrew-Arcade/software/apps/flappyTurd/flappyTurd.x86_64
