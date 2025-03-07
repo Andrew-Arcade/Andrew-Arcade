@@ -1,6 +1,5 @@
 <img src="logo/andrew-arcade-logo.png">
-
-# Andrew Arcade
+<hr>
 
 Check out my progress in the [log](LOG.md)!
 
