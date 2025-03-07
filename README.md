@@ -1,4 +1,4 @@
-<img src="images/andrew-arcade-logo.png">
+<img src="logo/andrew-arcade-logo.png">
 
 # Andrew Arcade
 
