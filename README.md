@@ -1,5 +1,7 @@
 <img src="logo/andrew-arcade-logo.png">
 
+> AA v2 (software) is still in development.
+
 Check out my progress in the [log](LOG.md)!
 
 Help Needed: Integrating Onshape Files into Repository
