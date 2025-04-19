@@ -3,7 +3,7 @@
 
 #
 
-Check out my progress in the [log](LOG.md) or the [TODO list](TODO.md).!
+Check out my progress in the [log](LOG.md) or the [todo](TODO.md) list!
 
 > [!WARNING]  
 > AA v2 (software update) is still in development.
