@@ -1,6 +1,12 @@
 # LOG
 
 <details>
+<summary>April 18, 2025: V1 Final! (pics from a while ago forgot to add them)</summary><br>
+    <img style="width: 400px;" src="photos/v1 final/Photo Apr 18 2025, 9 03 13 PM.jpg">
+    <img style="width: 400px;" src="photos/v1 final/Photo Apr 18 2025, 9 03 49 PM.jpg">
+</details>
+
+<details>
 <summary>Jan 23, 2025: Beginning assembly!</summary><br>
     <img style="width: 400px;" src="photos/beginning assembly/Photo Jan 23 2025, 6 44 45 PM.jpg">
 </details>
