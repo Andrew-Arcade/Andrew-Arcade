@@ -1,4 +1,5 @@
 <img src="logo/andrew-arcade-logo.png">
+<center>v2 (software update)</center>
 
 #
 
