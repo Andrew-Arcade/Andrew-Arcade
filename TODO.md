@@ -15,19 +15,17 @@
 
 ### Switch to android.
 
-- [ ] Backup an image of the console.
-- [ ] Install android.
+- [x] Backup an image of the console.
+- [x] Install android.
 
 ### Install apps.
 
-- [ ] Install a gamepad tester app.
-- [ ] Install a custom app (new driver).
-- [ ] Make the app work in big screen.
-- [ ] Install a test "game" app.
-- [ ] Get switching betweent he apps working.
-    - [ ] Launch from driver app.
-    - [ ] Close the driver.
-    - [ ] When closing the "game" app the driver should reopen.
+- [x] Install a custom app (new driver).
+- [x] Install a test "game" app.
+- [x] Get switching betweent he apps working.
+    - [x] Launch from driver app.
+    - [x] Close the driver.
+    - [x] When closing the "game" app the driver should reopen.
 - [ ] Add functionality to the driver app to install AA apps from the repo/GitHub.
 - [ ] Add functionality to the driver app to update AA apps from the repo/GitHub.
 
