@@ -1,7 +1,7 @@
 (footprint "RPi_Pico_SMD_TH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x20 2.54mm double row")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a2917f31-51e8-41e2-8ee9-095fbe8c99f1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -542,7 +530,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "022502e0-e724-4b75-bc35-3c5984dbeb76")
 	)
@@ -554,7 +542,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "d655bb0a-cbf9-4908-ad60-7024ff468fbd")
 	)
@@ -566,7 +554,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "9f969b13-1795-4747-8326-93bdc304ed56")
 	)
@@ -578,7 +566,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "b9d4de74-d246-495d-8b63-12ab2133d6d6")
 	)
@@ -1915,7 +1903,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
-	(model "C:/Users/scrom/Dropbox/Kids/Andrew/programming/Andrew Arcade/gamepad/pcb/RP-Pico Libraries/Pico.wrl"
+	(embedded_fonts no)
+	(model "C:/Users/andrew/Dropbox/Kids/Andrew/programming/Andrew Arcade/gamepad/pcb/RP-Pico Libraries/Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
