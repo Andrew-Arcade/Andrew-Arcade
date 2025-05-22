@@ -1228,7 +1228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f873f54-121c-4e2a-9a49-3adce080a539")
-		(property "Reference" "ButtonConnector4"
+		(property "Reference" "operators_plus1"
 			(at 158.75 111.7599 0)
 			(effects
 				(font
@@ -1282,7 +1282,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector4")
+					(reference "operators_plus1")
 					(unit 1)
 				)
 			)
@@ -1298,7 +1298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc8fdd4-1915-454d-87bc-1ee754dcec19")
-		(property "Reference" "ButtonConnector1"
+		(property "Reference" "dPad_east1"
 			(at 158.75 92.7099 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector1")
+					(reference "dPad_east1")
 					(unit 1)
 				)
 			)
@@ -1368,7 +1368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e98b621-035c-4e54-838d-b87dbfb34042")
-		(property "Reference" "JoystickConnector2"
+		(property "Reference" "joystick_left1"
 			(at 158.75 128.2699 0)
 			(effects
 				(font
@@ -1431,7 +1431,7 @@
 		(instances
 			(project ""
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "JoystickConnector2")
+					(reference "joystick_left1")
 					(unit 1)
 				)
 			)
@@ -1447,7 +1447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808bc859-df74-46a1-aeed-5f8cf1e28a76")
-		(property "Reference" "ButtonConnector2"
+		(property "Reference" "dPad_south1"
 			(at 158.75 99.0599 0)
 			(effects
 				(font
@@ -1501,7 +1501,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector2")
+					(reference "dPad_south1")
 					(unit 1)
 				)
 			)
@@ -1517,7 +1517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f5ae89-18e0-45c5-8e08-ab6f929ba63f")
-		(property "Reference" "ButtonConnector6"
+		(property "Reference" "dPad_north1"
 			(at 158.75 86.3599 0)
 			(effects
 				(font
@@ -1571,7 +1571,7 @@
 		(instances
 			(project ""
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector6")
+					(reference "dPad_north1")
 					(unit 1)
 				)
 			)
@@ -1587,7 +1587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6c1d8b-9117-4093-9e38-9c717d185cf3")
-		(property "Reference" "JoystickConnector1"
+		(property "Reference" "joystick_right1"
 			(at 158.75 142.2399 0)
 			(effects
 				(font
@@ -1650,7 +1650,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "JoystickConnector1")
+					(reference "joystick_right1")
 					(unit 1)
 				)
 			)
@@ -1666,7 +1666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09841d7-d496-4d0f-be86-27e6926c68e4")
-		(property "Reference" "ButtonConnector5"
+		(property "Reference" "operators_minus1"
 			(at 158.75 118.1099 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector5")
+					(reference "operators_minus1")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3bf2da-2dd5-40c8-8195-ab6394903e3e")
-		(property "Reference" "ButtonConnector3"
+		(property "Reference" "dPad_west1"
 			(at 158.75 105.4099 0)
 			(effects
 				(font
@@ -1981,7 +1981,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "ButtonConnector3")
+					(reference "dPad_west1")
 					(unit 1)
 				)
 			)
