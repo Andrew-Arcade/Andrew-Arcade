@@ -39,3 +39,14 @@ Unity projects typically require a large amount of storage, while Raspberry Pi 5
 ### More app information
 
 For additional details about the apps or games, check out the [Andrew Arcade Apps](https://github.com/AndrewCromar/Andrew-Arcade-Apps) repository.
+
+## Parts
+
+| Name | URL | Notes |
+| ---- | --- | ----- |
+| Raspberry Pi 5 | [part listing](https://www.raspberrypi.com/products/raspberry-pi-5/) | price: $80.
+| Raspberry Pi Pico | [part listing](https://www.raspberrypi.com/products/raspberry-pi-pico/) |  get it with headers |
+| Adafruit HDMI Display | [part listing](https://www.adafruit.com/product/2232) | price: $60.<br> dimensions: 800x480<br> size: 5".
+| Power Button | [part listing](https://www.amazon.com/Momentary-pre-Wiring-Waterproof-Stainless-Normally/dp/B09BKXT1J1/ref=sr_1_21?crid=1UOTGELQWX2QV&qid=1748031298&sprefix=push%2Bbutton%2Caps%2C246&sr=8-21&xpid=hIhX7cwb6-fjm&th=1) | 17.3 mm max diameter<br> 13.0 mm fit diameter<br> 21.4 mm height<br> 8.3 mm height (top of button to skinny part) |
+| Joysticks | [part listing](https://www.adafruit.com/product/512) | gotta solder it urself |
+| 90 Degree Headers | [part listing](https://www.amazon.com/PATIKIL-Header-Single-2-54mm-Plated/dp/B0C81QTKC5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&gQT=1&th=1) | for the joysticks |
