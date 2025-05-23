@@ -2,9 +2,6 @@
 
 Check out my progress in the [journal](JOURNAL.md)!
 
-Help Needed: Integrating Onshape Files into Repository
-- I'm currently using Onshape for my designs and would like to include these files in this repository. Is there a way to achieve this so that others can open the project files directly in a desktop application on their computer? Any advice or guidance would be greatly appreciated!
-
 ## About the Project
 
 Custom game console designed to run my Unity games.
@@ -18,7 +15,6 @@ We use [box64](https://github.com/ptitSeb/box64) to run Unity games on the ARM a
 The driver app acts as the game hub, allowing you to choose which game to play. It should be configured to launch automatically at startup to provide a seamless experience.
 
 For detailed steps on how to set up the driver app to auto-start, see [this guide](software/README.md).
-
 
 ## Apps
 [Andrew-Arcade-Apps](https://github.com/AndrewCromar/Andrew-Arcade-Apps) (referred to as "apps repository")
