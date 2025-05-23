@@ -1,6 +1,6 @@
-<img src="logo/andrew-arcade-logo.png">
+<img src="media/logo/andrew-arcade-logo.png">
 
-Check out my progress in the [log](LOG.md)!
+Check out my progress in the [journal](JOURNAL.md)!
 
 Help Needed: Integrating Onshape Files into Repository
 - I'm currently using Onshape for my designs and would like to include these files in this repository. Is there a way to achieve this so that others can open the project files directly in a desktop application on their computer? Any advice or guidance would be greatly appreciated!
