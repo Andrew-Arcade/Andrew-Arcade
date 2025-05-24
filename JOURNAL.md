@@ -5,6 +5,15 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
+# May 24th: Created a joystick mount.
+
+Created parts to hole the joystick module to the front panel.
+
+<img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 14-53-45.png">
+<img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 14-55-15.png">
+
+**Total time spent: 30mins**
+
 # May 22nd: Started work on the gamepad PCB
 
 I'm still new to KiCad but I'm starting to learn how to use it. I want to make my project more clean and organized.
