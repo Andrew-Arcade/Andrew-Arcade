@@ -5,18 +5,24 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
-# May 24th: Created a joystick mount.
+# May 24th: Worked on the cad model.
 
-Created parts to hole the joystick module to the front panel.
+- Creadted a front panel for everything to mount to.
+    - Button positions are not final.
+- Created parts to hold the joystick module to the front panel.
+- Created a button to be used in the main cad assembly.
 
+<img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 15-10-52.png">
+<img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 15-09-24.png">
 <img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 14-53-45.png">
 <img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 14-55-15.png">
+<img style="width: 400px;" src="media/journal/5-24-2025/Screenshot from 2025-05-24 15-04-10.png">
 
-**Total time spent: 30mins**
+**Total time spent: 1 hour**
 
 # May 22nd: Started work on the gamepad PCB
 
-I'm still new to KiCad but I'm starting to learn how to use it. I want to make my project more clean and organized.
+- I'm still new to KiCad but I'm starting to learn how to use it. I want to make my project more clean and organized.
 
 <img style="width: 400px;" src="media/journal/starting pcb design/Screenshot 2025-05-22 111034.png">
 <img style="width: 400px;" src="media/journal/starting pcb design/Screenshot 2025-05-22 111144.png">
@@ -25,7 +31,7 @@ I'm still new to KiCad but I'm starting to learn how to use it. I want to make m
 
 # May 21st: Designed a Screen Mount
 
-I designed a mount in onshape to hold my screen in place and have nice holes for mounting.
+- I designed a mount in onshape to hold my screen in place and have nice holes for mounting.
 
 <img style="width: 400px;" src="media/journal/starting v2 cad designs/Screenshot 2025-05-19 182155.png">
 <img style="width: 400px;" src="media/journal/starting v2 cad designs/Screenshot 2025-05-19 182156.png">
