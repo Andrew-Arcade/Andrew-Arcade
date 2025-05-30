@@ -5,6 +5,20 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
+# May 30th: Made some progress on the PCB.
+
+- Continued developing the gamepad PCB:
+    - Located and added the necessary KiCad component libraries.
+    - Connected all components together in the schematic.
+    - Finished routing all the PCB traces.
+
+<img style="width: 400px;" src="media/journal/5-30-2025/image (1).png">
+<img style="width: 400px;" src="media/journal/5-30-2025/image (4).png">
+<img style="width: 400px;" src="media/journal/5-30-2025/image (2).png">
+<img style="width: 400px;" src="media/journal/5-30-2025/image (3).png">
+
+**Total time spent: 1 hour 15 mins**
+
 # May 24th: Worked on the cad model.
 
 - Creadted a front panel for everything to mount to.
@@ -20,7 +34,7 @@ created_at: "2025-05-22"
 
 **Total time spent: 1 hour**
 
-# May 22nd: Started work on the gamepad PCB
+# May 22nd: Started work on the gamepad PCB.
 
 - I'm still new to KiCad but I'm starting to learn how to use it. I want to make my project more clean and organized.
 
@@ -29,7 +43,7 @@ created_at: "2025-05-22"
 
 **Total time spent: 1 hour**
 
-# May 21st: Designed a Screen Mount
+# May 21st: Designed a screen mount.
 
 - I designed a mount in onshape to hold my screen in place and have nice holes for mounting.
 
