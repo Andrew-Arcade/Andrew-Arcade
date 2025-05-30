@@ -1904,7 +1904,7 @@
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/andrew/Dropbox/Kids/Andrew/programming/Andrew Arcade/gamepad/pcb/RP-Pico Libraries/Pico.wrl"
+	(model "C:/Users/scrom/OneDrive/Desktop/Andrew Arcade/Andrew Arcade/gamepad/pcb/Libraries/Raspberry Pi Pico/Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

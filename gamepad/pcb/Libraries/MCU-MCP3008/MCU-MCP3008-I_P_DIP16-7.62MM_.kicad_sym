@@ -1,0 +1,243 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MCU-MCP3008-I_P_DIP16-7.62MM_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.1716 13.986 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MCU-MCP3008-I_P_DIP16-7.62MM_" (id 1) (at -3.81631 13.9931 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MCU-MCP3008-I_P_DIP16-7.62MM_:DIP16-2.54-19.2X7.62MM" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP3008-I/P/Microchip/view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Microchip 10 bit Serial ADC Differential Input 16-Pin PDIP | Microchip Technology Inc. MCP3008-I/P\n                        \n" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "DIP-16 Microchip" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "MCP3008-I/P" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "MCP3008-I/P-DIP16" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Microchip" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MCP3008-I/P" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/MCP3008-I/P/Microchip/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MCU-MCP3008-I_P_DIP16-7.62MM__0_0"
+      (polyline
+        (pts (xy -10.16 -11.43) (xy -10.16 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 -2.54) (xy -10.16 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 0.0) (xy -10.16 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 2.54) (xy -10.16 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 5.08) (xy -10.16 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 7.62) (xy -10.16 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 10.16) (xy -10.16 12.7)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 10.16) (xy -10.16 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 7.62) (xy -10.16 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 5.08) (xy -10.16 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 2.54) (xy -10.16 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 0.0) (xy -10.16 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 -2.54) (xy -10.16 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 -5.08) (xy -10.16 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -11.43 -7.62) (xy -10.16 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -5.08) (xy 11.43 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -7.62) (xy 11.43 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 2.54) (xy 11.43 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 0.0) (xy 11.43 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -2.54) (xy 11.43 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 10.16) (xy 11.43 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 7.62) (xy 11.43 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 5.08) (xy 11.43 5.08)) (stroke (width 0.1524))
+      )
+      (rectangle (start -6.37490196078 -11.43) (end 13.9450980392 12.7)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin output line (at -13.97 10.16 0) (length 2.54)
+        (name "CH0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -13.97 7.62 0) (length 2.54)
+        (name "CH1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -13.97 5.08 0) (length 2.54)
+        (name "CH2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -13.97 2.54 0) (length 2.54)
+        (name "CH3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -13.97 0.0 0) (length 2.54)
+        (name "CH4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -13.97 -2.54 0) (length 2.54)
+        (name "CH5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -13.97 -5.08 0) (length 2.54)
+        (name "CH6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -13.97 -7.62 0) (length 2.54)
+        (name "CH7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 13.97 -7.62 180.0) (length 2.54)
+        (name "DGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 13.97 -5.08 180.0) (length 2.54)
+        (name "SHDN/~{CS}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 13.97 -2.54 180.0) (length 2.54)
+        (name "DIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 13.97 0.0 180.0) (length 2.54)
+        (name "DOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 13.97 2.54 180.0) (length 2.54)
+        (name "CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 13.97 5.08 180.0) (length 2.54)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 13.97 7.62 180.0) (length 2.54)
+        (name "VREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 13.97 10.16 180.0) (length 2.54)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
