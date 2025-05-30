@@ -269,7 +269,7 @@
 		(uuid "fc08d66a-5ddd-4e96-a75a-a310ff1f263c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/scrom/OneDrive/Desktop/Andrew Arcade/Andrew Arcade/gamepad/pcb/Libraries/MCU-MCP3008/MCU-MCP3008-I_P_DIP16-7.62MM_.step"
+	(model "D:/Programming/Andrew Arcade/Andrew-Arcade/gamepad/pcb/Libraries/MCU-MCP3008/MCU-MCP3008-I_P_DIP16-7.62MM_.step"
 		(offset
 			(xyz 0 0 0)
 		)
