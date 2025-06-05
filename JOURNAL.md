@@ -16,7 +16,7 @@ created_at: "2025-05-22"
 <img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194555.png">
 <img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194628.png">
 
-**Total time spent: 1 hour 15 mins**
+**Total time spent: 1 hour 30 mins**
 
 # May 30th: Made some progress on the PCB.
 
