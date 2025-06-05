@@ -5,6 +5,19 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
+# June 4th: Decided to switch to a Waveshare Zero.
+
+- I wanted to use two joysticks for my project, but the Raspberry Pi Pico didn’t have enough analog pins. So, I switched to the Waveshare 2040 Zero, which uses the same RP2040 chip as the Pico but provides 4 analog pins, enough for both joysticks (2 pins each for X and Y on both the left and right joysticks).
+- I updated the PCB design to use the new board. This involved finding the correct footprints, symbols, and a CAD model for the Waveshare 2040 Zero.
+- I’ve updated the schematic, but I haven’t finished routing the PCB traces yet.
+
+<img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194513.png">
+<img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194540.png">
+<img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194555.png">
+<img style="width: 400px;" src="media/journal/6-4-2025/Screenshot 2025-06-04 194628.png">
+
+**Total time spent: 1 hour 15 mins**
+
 # May 30th: Made some progress on the PCB.
 
 - Continued developing the gamepad PCB:
