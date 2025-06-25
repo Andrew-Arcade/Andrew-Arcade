@@ -12,7 +12,7 @@ created_at: "2025-05-22"
 - I updated the pcb to work with all the buttons and to have more ideally placed connectors.
 
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142337.png">
-<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142554.png">
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151439.png">
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151021.png">
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151043.png">
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151124.png">
