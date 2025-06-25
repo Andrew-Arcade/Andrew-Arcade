@@ -5,12 +5,17 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
-# June 25th: Update front panel layout.
+# June 25th: Made a few updates to different parts.
 
-- I still am not 100% happy with where the +/- buttons are but It's good enough for now.
+- I updated the layout of the front panel.
+    - I still am not 100% happy with where the +/- buttons are but It's good enough for now.
+- I updated the pcb to work with all the buttons and to have more ideally placed connectors.
 
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142337.png">
 <img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142554.png">
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151021.png">
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151043.png">
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 151124.png">
 
 **Total time spent: 2 hours**
 
