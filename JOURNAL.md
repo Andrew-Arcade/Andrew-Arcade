@@ -5,6 +5,15 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
+# June 25th: Update front panel layout.
+
+- I still am not 100% happy with where the +/- buttons are but It's good enough for now.
+
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142337.png">
+<img style="width: 400px;" src="media/journal/6-25-2025/Screenshot 2025-06-25 142554.png">
+
+**Total time spent: 2 hours**
+
 # June 4th: Decided to switch to a Waveshare Zero.
 
 - I wanted to use two joysticks for my project, but the Raspberry Pi Pico didn’t have enough analog pins. So, I switched to the Waveshare 2040 Zero, which uses the same RP2040 chip as the Pico but provides 4 analog pins, enough for both joysticks (2 pins each for X and Y on both the left and right joysticks).
