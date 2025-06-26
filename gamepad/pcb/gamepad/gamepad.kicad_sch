@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Gamepad PCB")
-		(date "2025-06-25")
-		(rev "2")
+		(date "2025-06-26")
+		(rev "1")
 		(company "Andrew Arcade")
 	)
 	(lib_symbols
