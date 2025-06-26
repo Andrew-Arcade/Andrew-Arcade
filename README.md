@@ -50,12 +50,16 @@ For additional details about the apps or games, check out the [Andrew Arcade App
 > [!WARNING]
 > I need to update this it is not correct atm.
 
+- You will want an assortment of M3 screws.
+- You will need to order your own pcbs (manufacturing files/instructions will come later).
+
 | Name                  | URL                                                                                                    | Notes                                                                                                   |
 |-----------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Raspberry Pi 5        | [link](https://www.raspberrypi.com/products/raspberry-pi-5/)                          | Price: $80.                                                                                            |
-| Raspberry Pi Pico     | [link](https://www.raspberrypi.com/products/raspberry-pi-pico/)                        | Purchase with headers pre-soldered for easier assembly.                                                 |
-| Adafruit HDMI Display | [link](https://www.adafruit.com/product/2232)                                        | Price: $60. <br> Resolution: 800x480 <br> Size: 5 inches.                                              |
-| Buttons               | [link](https://www.amazon.com/Momentary-pre-Wiring-Waterproof-Stainless-Normally/dp/B09BKXT1J1/ref=sr_1_21?crid=1UOTGELQWX2QV&qid=1748031298&sprefix=push%2Bbutton%2Caps%2C246&sr=8-21&xpid=hIhX7cwb6-fjm&th=1) | Maximum diameter: 17.3 mm <br> Fitting diameter: 13.0 mm <br> Total height: 21.4 mm <br> Height from button top to narrow section: 8.3 mm. |
-| Joysticks             | [link](https://www.adafruit.com/product/512)                                           | Soldering is required for assembly.                                                                    |
-| 90 Degree Headers     | [link](https://www.amazon.com/PATIKIL-Header-Single-2-54mm-Plated/dp/B0C81QTKC5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&gQT=1&th=1) | Used to connect the joysticks to the board.                                                            |
-| DAC                   | [link](https://www.digikey.com/en/products/detail/microchip-technology/MCP3008-I-P/319422) | Allows you to connect more than three analog inputs from the joysticks to the Pico.                     |
+| Raspberry Pi 5        | [link](https://www.raspberrypi.com/products/raspberry-pi-5/) | |
+| Waveshare RP2040-Zero | [link](https://www.amazon.com/dp/B09L4YNNQH?ref_=cm_sw_r_cp_ud_ct_66QWR2T5E030FK6R5A1J_3&th=1) | Purchase with headers pre-soldered for easier assembly.                                                 |
+| Adafruit HDMI Display | [link](https://www.adafruit.com/product/2232) | - Resolution: 800x480.<br> - Size: 5 inches.                                              |
+| Buttons               | [link](https://www.amazon.com/dp/B08R9P3RKM?ref_=cm_sw_r_cp_ud_ct_66QWR2T5E030FK6R5A1J_6&th=1) | You need at least 11 buttons. You do not want them to be pre-wired. |
+| Joysticks             | [link](https://www.adafruit.com/product/512) | Soldering is required for assembly. |
+| 90 Degree Headers     | [link](https://www.amazon.com/PATIKIL-Header-Single-2-54mm-Plated/dp/B0C81QTKC5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&gQT=1&th=1) | Used to connect the joysticks to the board. |
+| Button Wires          | [link](https://www.amazon.com/dp/B092CW94LK?ref_=cm_sw_r_cp_ud_ct_66QWR2T5E030FK6R5A1J_5&th=1) | You need at least 11. |
+| JST Connectors        | [link](https://www.amazon.com/dp/B0B2R966ZY?ref_=cm_sw_r_cp_ud_ct_66QWR2T5E030FK6R5A1J_4&th=1) | - Size: 2P.<br> - Style: XH.
