@@ -1,3 +1,6 @@
+> [!NOTE]
+> You can automate this process by running [setup_autostart.sh](setup_autostart.sh).
+
 # Auto Starting Driver App
 
 This guide explains how to set up and run the script automatically when logging into the Raspberry Pi OS desktop.
