@@ -491,7 +491,7 @@
       "plot": "C:/Users/scrom/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/gamepad.step",
+      "step": "../gamepad.step",
       "svg": "",
       "vrml": ""
     },

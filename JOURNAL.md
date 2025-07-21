@@ -5,6 +5,16 @@ description: "A custom game console designed to run Unity Games."
 created_at: "2025-05-22"
 ---
 
+# July 21th: Redesigned the PCB to be smaller.
+
+- I had to move the rp5 over a bit so I needed to make the pcb smaller.
+
+<img style="width: 400px;" src="media/journal/7-21-2025/Screenshot 2025-07-21 124707.png">
+<img style="width: 400px;" src="media/journal/7-21-2025/Screenshot 2025-07-21 124747.png">
+<img style="width: 400px;" src="media/journal/7-21-2025/Screenshot 2025-07-21 124853.png">
+
+**Total time spent: 2 hours**
+
 # June 25th: Made a few updates to different parts.
 
 - I updated the layout of the front panel.
