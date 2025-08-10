@@ -2143,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f873f54-121c-4e2a-9a49-3adce080a539")
-		(property "Reference" "operators_plus1"
+		(property "Reference" "operators_minus1"
 			(at 58.42 96.5199 0)
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "operators_plus1")
+					(reference "operators_minus1")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc8fdd4-1915-454d-87bc-1ee754dcec19")
-		(property "Reference" "dPad_east1"
+		(property "Reference" "cardinal_right1"
 			(at 58.42 52.0699 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "dPad_east1")
+					(reference "cardinal_right1")
 					(unit 1)
 				)
 			)
@@ -2669,7 +2669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e98b621-035c-4e54-838d-b87dbfb34042")
-		(property "Reference" "joystick_left1"
+		(property "Reference" "joystick_right1"
 			(at 156.21 62.2299 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 		(instances
 			(project ""
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "joystick_left1")
+					(reference "joystick_right1")
 					(unit 1)
 				)
 			)
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50529670-2579-49cf-b1d9-b2f915631425")
-		(property "Reference" "cardinal_down1"
+		(property "Reference" "dPad_down1"
 			(at 58.42 83.8199 0)
 			(effects
 				(font
@@ -2803,7 +2803,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "cardinal_down1")
+					(reference "dPad_down1")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808bc859-df74-46a1-aeed-5f8cf1e28a76")
-		(property "Reference" "dPad_south1"
+		(property "Reference" "cardinal_down1"
 			(at 58.42 58.4199 0)
 			(effects
 				(font
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "dPad_south1")
+					(reference "cardinal_down1")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f5ae89-18e0-45c5-8e08-ab6f929ba63f")
-		(property "Reference" "dPad_north1"
+		(property "Reference" "cardinal_up1"
 			(at 58.42 45.7199 0)
 			(effects
 				(font
@@ -3146,7 +3146,7 @@
 		(instances
 			(project ""
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "dPad_north1")
+					(reference "cardinal_up1")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6c1d8b-9117-4093-9e38-9c717d185cf3")
-		(property "Reference" "joystick_right1"
+		(property "Reference" "joystick_left1"
 			(at 156.21 76.1999 0)
 			(effects
 				(font
@@ -3225,7 +3225,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "joystick_right1")
+					(reference "joystick_left1")
 					(unit 1)
 				)
 			)
@@ -3242,7 +3242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09841d7-d496-4d0f-be86-27e6926c68e4")
-		(property "Reference" "operators_minus1"
+		(property "Reference" "operators_plus1"
 			(at 58.42 102.8699 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "operators_minus1")
+					(reference "operators_plus1")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b11ea10c-7921-46a6-b399-66ab69f91325")
-		(property "Reference" "cardinal_left1"
+		(property "Reference" "dPad_left1"
 			(at 58.42 90.1699 0)
 			(effects
 				(font
@@ -3367,7 +3367,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "cardinal_left1")
+					(reference "dPad_left1")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdec4af0-bfb9-4483-962e-22214c04afb9")
-		(property "Reference" "cardinal_up1"
+		(property "Reference" "dPad_up1"
 			(at 58.42 71.1199 0)
 			(effects
 				(font
@@ -3438,7 +3438,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "cardinal_up1")
+					(reference "dPad_up1")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f850ea99-5624-4b2c-8ab5-92375dadd75d")
-		(property "Reference" "cardinal_right1"
+		(property "Reference" "dPad_right1"
 			(at 58.42 77.4699 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "cardinal_right1")
+					(reference "dPad_right1")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3bf2da-2dd5-40c8-8195-ab6394903e3e")
-		(property "Reference" "dPad_west1"
+		(property "Reference" "cardinal_left1"
 			(at 58.42 64.7699 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 		(instances
 			(project "gamepad"
 				(path "/00bcd25f-2f85-4197-8989-5ad786ea0927"
-					(reference "dPad_west1")
+					(reference "cardinal_left1")
 					(unit 1)
 				)
 			)

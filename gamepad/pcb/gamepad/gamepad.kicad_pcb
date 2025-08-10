@@ -118,7 +118,7 @@
 		(at 114.475 52.75 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "operators_plus1"
+		(property "Reference" "operators_minus1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -553,7 +553,7 @@
 		(at 114.475 70.75 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "dPad_south1"
+		(property "Reference" "cardinal_down1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -988,7 +988,7 @@
 		(at 83.95 64 90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "cardinal_left1"
+		(property "Reference" "dPad_left1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1423,7 +1423,7 @@
 		(at 114.475 38.75 -90)
 		(descr "JST PH series connector, B5B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
-		(property "Reference" "joystick_right1"
+		(property "Reference" "joystick_left1"
 			(at 4 -2.9 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2021,7 +2021,7 @@
 		(at 83.975 55 90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "operators_minus1"
+		(property "Reference" "operators_plus1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2456,7 +2456,7 @@
 		(at 114.475 61.75 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "dPad_west1"
+		(property "Reference" "cardinal_left1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2891,7 +2891,7 @@
 		(at 83.5 46.5 90)
 		(descr "JST PH series connector, B5B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
-		(property "Reference" "joystick_left1"
+		(property "Reference" "joystick_right1"
 			(at 4 -2.9 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4338,7 +4338,7 @@
 		(at 83.975 82 90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "cardinal_right1"
+		(property "Reference" "dPad_right1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5565,7 +5565,7 @@
 		(at 114.475 79.75 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "dPad_east1"
+		(property "Reference" "cardinal_right1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6000,7 +6000,7 @@
 		(at 83.975 73 90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "cardinal_down1"
+		(property "Reference" "dPad_down1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6435,7 +6435,7 @@
 		(at 114.5 89 -90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "dPad_north1"
+		(property "Reference" "cardinal_up1"
 			(at 44.75 34.45 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6870,7 +6870,7 @@
 		(at 83.975 91 90)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "cardinal_up1"
+		(property "Reference" "dPad_up1"
 			(at 1.25 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
